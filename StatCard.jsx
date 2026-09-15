@@ -1,0 +1,1 @@
+export default function StatCard({value,label,inverted=false}){return <div className={`card${inverted?' inverted':''}`}><div className="stat">{value}</div><div className="stat-label">{label}</div></div>}
